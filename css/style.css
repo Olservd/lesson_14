@@ -1,0 +1,246 @@
+.wrapper {
+   overflow: hidden;
+   position: relative;
+   min-height: 100vh;
+   background-color: #f2f2f2;
+}
+[class*="__container"] {
+   margin: 0 auto;
+   width: 1400px;
+}
+.header {
+   height: 85px;
+}
+.block {
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24px;
+   color: #292929;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: #f2f2f2;
+}
+.block div:hover {
+   color: #a75908;
+   text-decoration: underline;
+   transition: all 0.2s ease 0s;
+}
+.block button:hover {
+   transition: all 2s ease 0s;
+   background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #7ab06d, #477b56);
+}
+.block .block__logo {
+   padding-right: 130px;
+   font-size: 30px;
+   color: #725f13;
+   font-weight: 700;
+}
+.block__padding {
+   padding-right: 170px;
+}
+.block__button {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   background-color: #01996d;
+   color: white;
+   padding: 13px 50px;
+   border-radius: 5px;
+   margin: 20px 0;
+}
+.main {
+}
+.content {
+   display: flex;
+   justify-content: flex-end;
+}
+.content__image {
+   position: relative;
+}
+.top {
+}
+.title {
+   font-weight: 900;
+   font-size: 54px;
+   line-height: 70px;
+   color: #415167;
+   text-transform: uppercase;
+   position: absolute;
+   bottom: 64px;
+   left: -235px;
+}
+.person {
+   display: block;
+   color: white;
+   background-color: #c7a17a;
+   padding: 5px;
+}
+.content__menu {
+   background-color: #415167;
+   padding: 0 140px 0 70px;
+   height: 600px;
+}
+.list {
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+}
+.list a:hover {
+   transition: all 0.2s ease 0s;
+   color: #a75908;
+}
+.list div {
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 24px;
+   color: #edf0f5;
+   text-transform: uppercase;
+}
+.list div:not(:last-child) {
+   padding-bottom: 30px;
+}
+.info {
+}
+.info__main {
+}
+.center {
+   text-align: center;
+   padding: 70px 0 100px 0;
+}
+.main__subtitle {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   text-align: center;
+   color: #415167;
+}
+.main__title {
+   font-weight: 900;
+   font-size: 30px;
+   line-height: 34px;
+   color: #415167;
+   padding-top: 10px;
+   text-transform: uppercase;
+}
+.info__contentq {
+   display: flex;
+   justify-content: space-evenly;
+}
+.card {
+   flex: 0 1 280px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   padding-bottom: 100px;
+}
+.card__img {
+}
+.card__caption {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   color: #232c38;
+   padding: 44px 0 12px 0;
+}
+.card__desc {
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 22px;
+   text-align: center;
+   color: #151d28;
+}
+.shop {
+   position: relative;
+   padding-bottom: 100px;
+}
+.figura {
+   position: absolute;
+   width: 380px;
+   height: 100%;
+   background-color: #415167;
+   top: 0%;
+   left: 0%;
+   z-index: 1;
+}
+.products {
+   padding: 0 100px 0 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   row-gap: 32px;
+}
+
+.product {
+   display: flex;
+   z-index: 2;
+   flex: 1 0 560px;
+}
+.product__img {
+   background-color: #d7d7d7;
+}
+.product__content {
+}
+.description {
+   display: flex;
+   flex-direction: column;
+   padding: 0 50px 0 40px;
+   background-color: white;
+}
+.description__price {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 24px;
+   color: #c7a17a;
+   padding-top: 42px;
+}
+.description__name {
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   color: #232c38;
+   padding: 8px 0 24px 0;
+}
+.description__info {
+   font-weight: 300;
+   font-size: 16px;
+   line-height: 22px;
+   color: #151d28;
+   flex-grow: 1;
+}
+.description__more {
+}
+.more {
+   margin: 25px 0 50px 0;
+   display: flex;
+   align-items: center;
+}
+.more__button {
+   background-color: #c7a17a;
+   border-radius: 20px;
+   color: #fff;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 22px;
+   text-align: center;
+   padding: 6px 15px;
+   text-transform: uppercase;
+   margin-right: 45px;
+   transition: all 0.5s ease 0s;
+}
+.more__button:hover {
+   transition: all 2s ease 0s;
+   background-image: radial-gradient(ellipse farthest-corner at 50% 50%, #c7beac, #c7a17a);
+}
+.more__text {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 22px;
+   color: #415167;
+   text-transform: uppercase;
+}
+.footer {
+}
